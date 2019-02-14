@@ -1,0 +1,3 @@
+[24-Jan-2018 00:29:52 America/Sao_Paulo] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/svlabs/public_html/site-novo/oportunidades.php on line 76
+[24-Jan-2018 00:32:34 America/Sao_Paulo] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/svlabs/public_html/site-novo/oportunidades.php on line 76
+[24-Jan-2018 00:33:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/svlabs/public_html/site-novo/oportunidades.php on line 32

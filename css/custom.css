@@ -1,0 +1,342 @@
+/*--
+author: milton noboru higaki
+Email: milton.higaki@gmail.com
+repositorio git: https://github.com/mhigaki/svlabs
+*/
+/* Treinamento 1 */
+.services-treinamento-1 {
+    padding: 6em 0px 45px;
+}
+
+.services-treinamento-1 .heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-treinamento-1 .heading h3 {
+    color: #000;
+    text-align: center;
+}
+
+.services-treinamento-1 .heading p {
+    width: 85%;
+    text-align: left;
+    color: #4c4c4c;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.services-treinamento-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-treinamento-1 .card {
+    border: none;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+
+.services-treinamento-1 .card .caption {
+}
+
+.services-treinamento-1 .card .caption h4 {
+    color: #000000;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.services-treinamento-1 .card .caption p {
+    color: #4c4c4c;
+    font-size: 1.2em;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.services-treinamento-1 .card:hover .caption .line.bottom {
+    background-color: #fecb16;
+    width: 23%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.services-treinamento-1 .card:hover .caption h4 {
+    color: #fecb16;
+}
+
+.services-treinamento-1 .card .caption .line.bottom {
+    height: 2px;
+    background-color: gray;
+    width: 10%;
+    margin: 0 auto;
+}
+
+/*.ementa */
+.ementa {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: #faf6f6;
+    margin-top: 0;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.ementa .content {
+    width: 90%;
+    position: relative;
+    margin-top: 3em;
+    padding-top: 0;
+}
+
+.ementa .content p {
+    color: #000000;
+    line-height: 1.5;
+    font-size: 1.3em;
+    font-family: Dosis;
+    font-weight: 300;
+    padding-bottom: 1em;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.ementa .content .left-box {
+    /* placeholder */
+}
+
+.ementa .content .left-box h2 {
+    font-size: 30px;
+    color: #111111;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 0;
+    text-align: left;
+}
+
+.ementa .content .left-box h2:after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #ecd02e;
+    position: relative;
+    display: block;
+    top: 25px;
+}
+
+.ementa .content .left-box a {
+    color: #edb50c;
+    font-size: 14px;
+    display: block;
+    float: left;
+    padding: 35px 0 20px;
+    font-weight: bold;
+}
+
+.ementa .content .right-box {
+    border: 12px solid #edb50c;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.ementa .content .right-box h2 {
+    font-size: 148px;
+    color: #111111;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+@media (min-width:480px) and (max-width:769px) {
+    .ementa .content .right-box h2 {
+        font-size: 90px;
+    }
+}
+
+@media (max-width:479px) {
+    .ementa .content .right-box h2 {
+        font-size: 50px;
+    }
+}
+
+.ementa-modulo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.ementa-modulo-list {
+    font-size: 1.4em;
+    line-height: 1.5;
+    font-family: Dosis;
+    font-weight: 300;
+    color: #111;
+    list-style-position: inside;
+}
+
+.emtenta-row {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/* header3 */
+.pg-construction-header3 {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 100px 0px 50px;
+    background: #000;
+    min-height: 250px;
+    margin: 0 0;
+    background-image: url('../images/Treinamento.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pg-construction-header3::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 65%;
+    background: #fff;
+    transform: skew(-40deg, 0deg);
+    transform-origin: 100% -1%;
+}
+
+.pg-construction-header3 .content {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 0 0 10px 0;
+}
+
+.pg-construction-header3 .content h2 {
+    font-weight: 700;
+    color: #252525;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    text-align: left;
+}
+
+.pg-construction-header3 .content h2 span {
+    color: #ebcd1e;
+}
+
+.pg-construction-header3 .content h6 {
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 4px;
+}
+
+.pg-construction-header3 .content p {
+    color: #666;
+    font-size: 15px;
+}
+
+.pg-construction-header3 .content .button {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 10px 0px;
+    text-align: left;
+    margin: 10px 0 15px 0;
+}
+
+.pg-construction-header3 .content .button a {
+    background: #fecb16;
+    position: relative;
+    margin: 0px 15px 0px 0px;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: #2f2f2f;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 13px;
+    border: 1px solid #fecb16;
+    text-decoration: none;
+}
+
+.pg-construction-header3 .content .button a.not-bg {
+    background-color: transparent;
+}
+
+@media (max-width:992px){
+    .pg-construction-header3::before {
+        position: absolute;
+        content: "";
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 86%;
+        background: #fff;
+        transform: skew(-30deg, 0deg);
+        transform-origin: 100% -1%;
+    }
+}
+
+@media (max-width:767px){
+    .pg-construction-header3::before {
+        position: absolute;
+        content: "";
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        transform: skew(0deg, 0deg);
+        transform-origin: 0% 0%;
+    }
+
+    .pg-construction-header3 {
+        min-height: 212px;
+    }
+}
+
+.ementa-module-title {
+    font-family: Dosis;
+    font-size: 1.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 2;
+}
+
+.ementa-carga-horaria {
+    font-family: Dosis;
+    font-size: 1.6em;
+    line-height: 3.0;
+    color: #000000;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
