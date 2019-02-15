@@ -13,20 +13,20 @@ repositorio git: https://github.com/mhigaki/svlabs
     <meta name="description" content="Especializada e com foco total na area de Qualidade de Software, a SVLabs oferece soluções para prover um nível elevado de qualidade dos produtos.">
     <meta name="keywords" content="fábrica de testes, outsourcing, pay per bug, consultoria, capacitação, qualificação de fornecedores, treinamento, modelo ivv, quality assurance, testes, qualidade, bugs, controle de qualidade, controle de qualidade, automação de testes ."/>
     <script type="application/x-javascript">
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+      addEventListener("load", function() {
+        setTimeout(hideURLbar, 0);
+      }, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
+      function hideURLbar() {
+        window.scrollTo(0, 1);
+      }
     </script>
     <!-- //custom-theme -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property=""/>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" property=""/>
     <!-- font-awesome-icons -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome-icons -->
     <link href="//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -35,10 +35,10 @@ repositorio git: https://github.com/mhigaki/svlabs
     <!-- banner -->
     <div id="home" class="mhls-banner">
       <!-- header -->
-      <div class="header-mhl" id="header-mhl">
+      <div id="header-mhl" class="header-mhl">
         <div class="header">
           <div class="mhits_mhlayouts_logo">
-            <img src="images/logo_branco.png" class="img-responsive" alt="logo svlabs" width="165px"/>
+            <img src="assets/images/logo_branco.png" class="img-responsive" alt="logo svlabs" width="165px"/>
           </div>
           <div class="mh_mhits_header_text">
             <h3 id="tel_svlabs" class="hidden-xs">tel: +55 11 3055-1977</h3>
@@ -73,16 +73,16 @@ repositorio git: https://github.com/mhigaki/svlabs
             </div>
             <div id="m_nav_container" class="m_nav wthree_bg">
               <nav class="menu menu--sebastian">
-                <ul id="m_nav_list" class="m_nav menu__list"> 
+                <ul id="m_nav_list" class="m_nav menu__list">
                   <li class="m_nav_item active" id="m_nav_item_1">
                     <a href="index.html" class="link link--kumya"><i class="fa fa-home" aria-hidden="true"></i><span data-letters="Home">Home</span></a>
-                  </li>                   
+                  </li>
                   <li class="m_nav_item" id="moble_nav_item_2">
                     <a href="#empresa" class="link link--kumya scroll"><i class="fa fa-info" aria-hidden="true"></i><span data-letters="Empresa">Empresa</span></a>
-                  </li>                   
+                  </li>
                   <li class="m_nav_item" id="moble_nav_item_3">
                     <a href="#solucoes" class="link link--kumya scroll"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><span data-letters="Soluções">Soluções</span></a>
-                  </li>                   
+                  </li>
                   <li class="m_nav_item dropdown-toggle" id="moble_nav_item_4">
                     <a href="#treinamento" class="link link--kumya scroll"><i class="fa fa-user" aria-hidden="true" id="mn_treinamento"></i><span data-letters="Treinamento">Treinamento</span></a>
                     <ul class="dropdown-menu agil_short_dropdown">
@@ -105,13 +105,13 @@ repositorio git: https://github.com/mhigaki/svlabs
                         <a href="typography.html">Typography</a>
                       </li>
                     </ul>
-                  </li>                   
+                  </li>
                   <li class="m_nav_item" id="moble_nav_item_5">
                     <a href="#carreiras" class="link link--kumya scroll"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span data-letters="Oportunidades">Oportunidades</span></a>
-                  </li>                   
+                  </li>
                   <li class="m_nav_item" id="moble_nav_item_6">
                     <a href="#contato" class="link link--kumya scroll"><i class="fa fa-envelope-o" aria-hidden="true"></i><span data-letters="Contato">Contato</span></a>
-                  </li>                   
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -122,7 +122,7 @@ repositorio git: https://github.com/mhigaki/svlabs
       </div>
       <!-- //header -->
       <!-- banner-text -->
-      <div class="slider">
+      <div class="slider" data-pg-collapsed>
         <div class="callbacks_container">
           <ul class="rslides callbacks callbacks1" id="slider4">
             <li>
@@ -136,7 +136,7 @@ repositorio git: https://github.com/mhigaki/svlabs
               </div>
             </li>
             <li>
-              <div class="mhlayouts-banner-top mhlayouts-banner-top2">
+              <div class="mhlayouts-banner-top mhlayouts-banner-top2" data-pg-collapsed>
                 <div class="mhits-banner-info">
                   <h3>buscando<br><span>transformação digital?</span></h3>
                   <p>Nós podemos apoiar nesse processo.</p>
@@ -171,14 +171,14 @@ repositorio git: https://github.com/mhigaki/svlabs
         <!--banner Slider starts Here-->
       </div>
     </div>
-    <main>
-      <div class="banner-bottom" id="empresa">
+    <main data-pg-collapsed>
+      <section class="banner-bottom" id="empresa" data-pg-collapsed>
         <div class="container">
           <div class="mh_banner_bottom_grid_pos">
             <div class="mhits_mhlayouts_heding">
               <h3 class="text-center">sobre a <span style="text-transform: none;">SVLabs</span></h3>
-            </div>             
-            <p class="p-about"><b><i>Especializada</i></b> e com foco total na área de     <b><i>Quality Assurance</i></b> e <b>Testes</b>, a SVLabs oferece soluções para prover um nível elevado de qualidade aos seus clientes.</p>
+            </div>
+            <p class="p-about"><b><i>Especializada</i></b> e com foco total na área de <b><i>Quality Assurance</i></b> e <b>Testes</b>, a SVLabs oferece soluções para prover um nível elevado de qualidade aos seus clientes.</p>
           </div>
           <div class="mhls_banner_bottom_grid1">
             <div class="col-md-6 mhl_banner_bottom_left">
@@ -253,8 +253,8 @@ repositorio git: https://github.com/mhigaki/svlabs
             <div class="clearfix"> </div>
           </div>
         </div>
-      </div>
-      <div class="mhlayouts_chamada hidden">
+      </section>
+      <div class="mhlayouts_chamada hidden" data-pg-collapsed>
         <div class="container">
           <div class="text-center mhlayouts_chamada_left">
             <h3><strong>LIGUE 11 3055 1955</strong></h3>
@@ -268,13 +268,13 @@ repositorio git: https://github.com/mhigaki/svlabs
           </div>
         </div>
       </div>
-      <div id="treinamento" class="treinamento_agil_section">
+      <div id="treinamento" class="treinamento_agil_section" data-pg-collapsed>
         <div class="mhits-cursos-info">
           <h3><span>CONFIRA NOSSO <br>CALENDÁRIO DE CURSOS&nbsp;2018</span></h3>
           <a href="treinamentos.html">EM BREVE<br></a>
         </div>
       </div>
-      <div id="solucoes" class="banner-bottom">
+      <div id="solucoes" class="banner-bottom" data-pg-collapsed>
         <div class="container">
           <div class="mhits_mhlayouts_heding">
             <h3 class="text-center">Nossas <span>Soluções</span></h3>
@@ -283,7 +283,7 @@ repositorio git: https://github.com/mhigaki/svlabs
             <li>
               <div class="mh_agil_portfolio_grid">
                 <a href="#" data-toggle="modal" data-target="#fabrica-de-testes">
-                  <img src="images/fabrica-de-teste-00.png" alt="fabrica de testes" class="img-responsive"/>
+                  <img src="assets/images/fabrica-de-teste-00.png" alt="fabrica de testes" class="img-responsive"/>
                   <div class="mhlayouts_news_grid_pos" id="bgd_fabrica-de-testes">
 </div>
                 </a>
@@ -292,7 +292,7 @@ repositorio git: https://github.com/mhigaki/svlabs
             <li>
               <div class="mh_agil_portfolio_grid">
                 <a href="#" data-toggle="modal" data-target="#consultoria">
-                  <img src="images/consultoria-e-capacitacao.png" alt="consultoria e capacitação" class="img-responsive"/>
+                  <img src="assets/images/consultoria-e-capacitacao.png" alt="consultoria e capacitação" class="img-responsive"/>
                   <div class="mhlayouts_news_grid_pos" id="bgd_consultoria-e capacitacao">
 </div>
                 </a>
@@ -301,7 +301,7 @@ repositorio git: https://github.com/mhigaki/svlabs
             <li>
               <div class="mh_agil_portfolio_grid">
                 <a href="#" data-toggle="modal" data-target="#testsourcing">
-                  <img src="images/testsourcing.png" alt="testsourcing" class="img-responsive"/>
+                  <img src="assets/images/testsourcing.png" alt="testsourcing" class="img-responsive"/>
                   <div class="mhlayouts_news_grid_pos" id="bgd_testsourcing">
 </div>
                 </a>
@@ -310,7 +310,7 @@ repositorio git: https://github.com/mhigaki/svlabs
             <li>
               <div class="mh_agil_portfolio_grid">
                 <a href="#" data-toggle="modal" data-target="#treinamentos">
-                  <img src="images/treinamento.png" class="img-responsive"/>
+                  <img src="assets/images/treinamento.png" class="img-responsive"/>
                   <div class="mhlayouts_news_grid_pos" id="bgd_treinamento">
 </div>
                 </a>
@@ -319,7 +319,7 @@ repositorio git: https://github.com/mhigaki/svlabs
             <li>
               <div class="mh_agil_portfolio_grid">
                 <a data-toggle="modal" data-target="#bpm" href="#">
-                  <img src="images/bpm.png" alt="bpm" class="img-responsive"/>
+                  <img src="assets/images/bpm.png" alt="bpm" class="img-responsive"/>
                   <div class="mhlayouts_news_grid_pos" id="bgd_bpm">
 </div>
                 </a>
@@ -328,7 +328,7 @@ repositorio git: https://github.com/mhigaki/svlabs
             <li>
               <div class="mh_agil_portfolio_grid">
                 <a href="#" data-target="#pay_per_bug" data-toggle="modal">
-                  <img src="images/pay-per-bug.png" alt="pay per bug" class="img-responsive"/>
+                  <img src="assets/images/pay-per-bug.png" alt="pay per bug" class="img-responsive"/>
                   <div class="mhlayouts_news_grid_pos" id="bgd_pay-per-bug">
 </div>
                 </a>
@@ -338,7 +338,7 @@ repositorio git: https://github.com/mhigaki/svlabs
           <!-- portfolio -->
         </div>
       </div>
-      <div class="schedule-bottom hidden">
+      <div class="schedule-bottom hidden" data-pg-collapsed>
         <div class="agilinfo_schedule_bottom_left">
           <div style="z-index: 10;
     position: absolute;
@@ -352,13 +352,13 @@ repositorio git: https://github.com/mhigaki/svlabs
     font-weight: 600;">Juntos,<br>somos melhores.</h3>
             <h3 class="text-uppercase">Deixe a SVLabs ajudar.</h3>
           </div>
-          <img src="images/top_banner02.png" alt=" " class="img-responsive"/>
+          <img src="assets/images/top_banner02.png" alt=" " class="img-responsive"/>
         </div>
         <div class="col-md-6 mhits_schedule_bottom_right">
           <div class="mhls_schedule_bottom_right_grid">
             <h3>Cansados de <span>reparar erros?</span></h3>
             <p>Falhas nos sistemas podem causar prejuízos
-enormes.<br>Não deixe isso acontecer com seu negócio.</p>
+              enormes.<br>Não deixe isso acontecer com seu negócio.</p>
             <div class="col-md-4 mhl_schedule_bottom_right_grid1">
               <i class="fa fa-bug" aria-hidden="true"></i>
               <h4>Customers</h4>
@@ -379,20 +379,20 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
         </div>
         <div class="clearfix"> </div>
       </div>
-      <div class="meddile_agil_section hidden hidden-print">
+      <div class="meddile_agil_section hidden hidden-print" data-pg-collapsed>
         <div class="container">
           <div class="mhits_mhlayouts_heding three">
             <h3 class="text-center"><span><b>21 ANos</b></span>DE ÓTIMAS EXPERIÊNCIAS<br>E MUITA DEDICAÇÃO</h3>
           </div>
         </div>
       </div>
-      <div id="carreiras" class="carreiras_agil_section">
+      <div id="carreiras" class="carreiras_agil_section" data-pg-collapsed>
         <div class="mhits-carreiras-info">
           <h3 class="text-left"><span>NÓS ESTAMOS BUSCANDO<br>&nbsp;O TALENTO QUE<br>&nbsp;HÁ EM VOCÊ</span></h3>
           <a href="oportunidades.html">CONFIRA NOSSAS VAGAS<i class="fa fa-caret-right" aria-hidden="true"></i></a>
         </div>
       </div>
-      <div id="parceiros" class="team">
+      <div id="parceiros" class="team" data-pg-collapsed>
         <div class="container">
           <div class="mhits_mhlayouts_heding">
             <h3 class="text-center">nossos <span>parceiros</span></h3>
@@ -401,7 +401,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
             <div class="mh_agil_team_grid col-md-6" style="text-align: center;">
               <div class="hover14 column">
                 <figure>
-                  <img src="images/drbit.png" alt=" " class="img-responsive" id="logo_doctorbit"/>
+                  <img src="assets/images/drbit.png" alt=" " class="img-responsive" id="logo_doctorbit"/>
                 </figure>
               </div>
               <h3><span style="font-size: 1.1em;">DR. BIT</span></h3>
@@ -410,7 +410,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
             <div class="mh_agil_team_grid col-md-6" style="text-align: center;">
               <div class="hover14 column">
                 <figure>
-                  <img src="images/cts.png" alt=" " class="img-responsive" id="logo_cts-consultoria"/>
+                  <img src="assets/images/cts.png" alt=" " class="img-responsive" id="logo_cts-consultoria"/>
                 </figure>
               </div>
               <h3><span style="font-size: 1.1em;">CTS CONSULTORIA</span></h3>
@@ -420,12 +420,12 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           </div>
         </div>
       </div>
-      <div id="portfolio" class="portfolio hidden">
+      <div id="portfolio" class="portfolio hidden" data-pg-collapsed>
         <ul id="flexiselDemo1">
           <li>
             <div class="mh_agil_portfolio_grid">
               <a href="gallery.html">
-                <img src="images/payperbug.jpg" alt=" " class="img-responsive"/>
+                <img src="assets/images/payperbug.jpg" alt=" " class="img-responsive"/>
                 <div class="mhlayouts_news_grid_pos">
                   <div class="wthree_text">
                     <h3>PAY * <span>PER</span> * BUG</h3>
@@ -437,7 +437,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <li>
             <div class="mh_agil_portfolio_grid">
               <a href="gallery.html">
-                <img src="images/consultoria.jpg" alt=" " class="img-responsive"/>
+                <img src="assets/images/consultoria.jpg" alt=" " class="img-responsive"/>
                 <div class="mhlayouts_news_grid_pos">
                   <div class="wthree_text">
                     <h3>Classy <span>Decor</span></h3>
@@ -461,7 +461,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <li>
             <div class="mh_agil_portfolio_grid">
               <a href="gallery.html">
-                <img src="images/fabricadetestes.jpg" alt=" " class="img-responsive"/>
+                <img src="assets/images/fabricadetestes.jpg" alt=" " class="img-responsive"/>
                 <div class="mhlayouts_news_grid_pos">
                   <div class="wthree_text">
                     <h3>Classy <span>Decor</span></h3>
@@ -473,7 +473,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <li>
             <div class="mh_agil_portfolio_grid">
               <a href="gallery.html">
-                <img src="images/outsourcing.jpg" alt=" " class="img-responsive"/>
+                <img src="assets/images/outsourcing.jpg" alt=" " class="img-responsive"/>
                 <div class="mhlayouts_news_grid_pos">
                   <div class="wthree_text">
                     <h3>Classy <span>Decor</span></h3>
@@ -485,7 +485,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <li>
             <div class="mh_agil_portfolio_grid">
               <a href="gallery.html">
-                <img src="images/payperbug.jpg" alt=" " class="img-responsive"/>
+                <img src="assets/images/payperbug.jpg" alt=" " class="img-responsive"/>
                 <div class="mhlayouts_news_grid_pos">
                   <div class="wthree_text">
                     <h3>Classy <span>Decor</span></h3>
@@ -497,7 +497,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <li>
             <div class="mh_agil_portfolio_grid">
               <a href="gallery.html">
-                <img src="images/qualificacaod-de-fornecedores.png" alt=" " class="img-responsive"/>
+                <img src="assets/images/qualificacaod-de-fornecedores.png" alt=" " class="img-responsive"/>
                 <div class="mhlayouts_news_grid_pos">
                   <div class="wthree_text">
                     <h3>Classy <span>Decor</span></h3>
@@ -508,7 +508,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           </li>
         </ul>
       </div>
-      <div class="mhlayouts_newsletter hidden">
+      <div class="mhlayouts_newsletter hidden" data-pg-collapsed>
         <div class="container">
           <div class="mhlayouts_newsletter_left">
             <h3>RECEBA NOSSA NEWSLETTER!</h3>
@@ -524,14 +524,14 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <div class="clearfix"> </div>
         </div>
       </div>
-      <div id="map" class="map">
+      <div id="map" class="map" data-pg-collapsed>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.9892669237!2d-46.850129785023405!3d-23.496896084714866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf023cc55b350d%3A0x7dec8f4d672ff0ca!2sAlameda+Rio+Negro%2C+1030+-+Alphaville+Industrial%2C+Barueri+-+SP%2C+06454-080!5e0!3m2!1spt-BR!2sbr!4v1511484120000" allowfullscreen=""></iframe>
       </div>
-      <div id="contato" class="contact">
+      <div id="contato" class="contact" data-pg-collapsed>
         <div class="container">
           <div class="mhits_mhlayouts_heding three">
             <h3 style="text-align: left;">Entre em <span>contato</span> conosco </h3>
-            <img src="images/logo_branco.png" class="pull-right visible-lg img-responsive hidden-xs show visible-md hidden-sm" width="200px" data-spy="affix" style="float: right;
+            <img src="assets/images/logo_branco.png" class="pull-right visible-lg img-responsive hidden-xs show visible-md hidden-sm" width="200px" data-spy="affix" style="float: right;
     margin-top: -50px;
     margin-right: 50px;
     z-index: 3;
@@ -564,7 +564,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
                 <div class="mhls_footer_nav_bottom_left col-md-4">
                   <h4><i class="fa fa-home" aria-hidden="true"></i></h4>
                   <p>Al. Rio Negro, 1030 – 6º andar<br>Conj. 601 - Alphaville - Barueri <br>SP -
-                                  CEP: 06454-000</p>
+                    CEP: 06454-000</p>
                 </div>
                 <div class="mhls_footer_nav_bottom_left col-md-4">
                   <h4><i class="fa fa-envelope" aria-hidden="true"></i></h4>
@@ -596,7 +596,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
     <!-- contact -->
     <!-- //contact -->
     <!-- footer -->
-    <div class="mh_agil_footer" id="svlabs-footer">
+    <div class="mh_agil_footer" id="svlabs-footer" data-pg-collapsed>
       <div class="container">
         <p id="svlabs-footer-copyright">Copyright © 2018 SVLabs. Todos os direitos reservados</p>
         <div class="arrow-container animated fadeInDown" data-spy="affix">
@@ -619,7 +619,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <section>
             <div class="modal-body">
               <div class="col-md-6 mh_modal_body_left">
-                <img src="images/consultoria.jpg" alt=" " class="img-responsive"/>
+                <img src="assets/images/consultoria.jpg" alt=" " class="img-responsive"/>
               </div>
               <div class="col-md-6 mh_modal_body_right text-left" style="padding: 20px;">
                 <ol>
@@ -649,7 +649,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <section>
             <div class="modal-body">
               <div class="col-md-6 mh_modal_body_left">
-                <img src="images/qualificacaod-de-fornecedores.png" alt=" " class="img-responsive"/>
+                <img src="assets/images/qualificacaod-de-fornecedores.png" alt=" " class="img-responsive"/>
               </div>
               <div style="padding: 20px;" class="col-md-6 mh_modal_body_right text-left">
                 <ol>
@@ -675,10 +675,10 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <section>
+          <section data-pg-collapsed>
             <div class="modal-body">
               <div class="col-md-6 mh_modal_body_left">
-                <img src="images/fabrica-de-testes.png" alt=" treinamento" class="img-responsive"/>
+                <img src="assets/images/fabrica-de-testes.png" alt=" treinamento" class="img-responsive"/>
               </div>
               <div class="col-md-6 mh_modal_body_right text-left">
                 <ol>
@@ -710,10 +710,10 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
             </button>
           </div>
           <section>
-            <div class="modal-body"> 
+            <div class="modal-body">
               <div class="col-md-6 mh_modal_body_left">
-                <img src="images/Treinamento.jpg" alt=" treinamento" class="img-responsive"/>
-              </div>               
+                <img src="assets/images/Treinamento.jpg" alt=" treinamento" class="img-responsive"/>
+              </div>
               <div class="col-md-6 mh_modal_body_right text-left">
                 <li style="list-style-type: square;">Metodologias Ágeis</li>
                 <li style="list-style-type: square;">Preparatório para cetificações</li>
@@ -723,7 +723,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
                 <li style="list-style-type: square;">Tmap</li>
                 <a href="#" data-target="#myModal" data-toggle="modal" class="btn-modal-treinamento">SAIBA MAIS<i class="fa fa-caret-right" aria-hidden="true"></i></a>
               </div>
-              <div class="clearfix btn"> </div>               
+              <div class="clearfix btn"> </div>
             </div>
           </section>
         </div>
@@ -742,7 +742,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <section>
             <div class="modal-body">
               <div class="col-md-6 mh_modal_body_left">
-                <img src="images/modal_payperbug.png" alt=" " class="img-responsive"/>
+                <img src="assets/images/modal_payperbug.png" alt=" " class="img-responsive"/>
               </div>
               <div class="col-md-6 mh_modal_body_right text-left">
                 <ol>
@@ -770,7 +770,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <section>
             <div class="modal-body">
               <div class="mh_modal_body_right text-left col-md-12" style="padding: 20px;">
-                <img src="images/ivv00.jpg" class="img-responsive"/>
+                <img src="assets/images/ivv00.jpg" class="img-responsive"/>
               </div>
               <div class="clearfix"> </div>
             </div>
@@ -790,7 +790,7 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
           <section>
             <div class="modal-body">
               <div class="col-md-6 mh_modal_body_left">
-                <img src="images/outsourcing.jpg" alt=" " class="img-responsive"/>
+                <img src="assets/images/outsourcing.jpg" alt=" " class="img-responsive"/>
               </div>
               <div class="col-md-6 mh_modal_body_right text-left">
                 <ol>
@@ -809,124 +809,124 @@ enormes.<br>Não deixe isso acontecer com seu negócio.</p>
       </div>
     </div>
     <!-- Válidação de formulário para não aceitar campos com espaço e nulo -->
-    <script>
-            function valida_form (){
-                if(document.getElementById("Nome").value.trim() == ""){
-                    alert('Por favor, preencha o campo nome');
-                    document.getElementById("Nome").focus();
-                    return false
-                }
-                if(document.getElementById("Empresa").value.trim() == ""){
-                    alert('Por favor, preencha o campo empresa');
-                    document.getElementById("Empresa").focus();
-                    return false
-                }
-                if(document.getElementById("Assunto").value.trim() == ""){
-                    alert('Por favor, preencha o campo assunto');
-                    document.getElementById("Assunto").focus();
-                    return false
-                }
-                if(document.getElementById("Messagem").value.trim() == ""){
-                    alert('Por favor, preencha o campo mensagem');
-                    document.getElementById("Messagem").focus();
-                    return false
-                }
-            }
+    <script data-pg-collapsed>
+      function valida_form() {
+        if (document.getElementById("Nome").value.trim() == "") {
+          alert('Por favor, preencha o campo nome');
+          document.getElementById("Nome").focus();
+          return false
+        }
+        if (document.getElementById("Empresa").value.trim() == "") {
+          alert('Por favor, preencha o campo empresa');
+          document.getElementById("Empresa").focus();
+          return false
+        }
+        if (document.getElementById("Assunto").value.trim() == "") {
+          alert('Por favor, preencha o campo assunto');
+          document.getElementById("Assunto").focus();
+          return false
+        }
+        if (document.getElementById("Messagem").value.trim() == "") {
+          alert('Por favor, preencha o campo mensagem');
+          document.getElementById("Messagem").focus();
+          return false
+        }
+      }
     </script>
     <!-- //bootstrap-pop-up -->
     <!-- portfolio-pop-up -->
     <!-- js -->
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js" data-pg-collapsed></script>
     <!-- //js -->
-    <script src="js/responsiveslides.min.js"></script>
-    <script>
-		// You can also use "$(window).load(function() {"
-		$(function () {
-			// Slideshow 4
-			$("#slider4").responsiveSlides({
-				auto: true,
-				pager: true,
-				nav: false,
-				speed: 500,
-				namespace: "callbacks",
-				before: function () {
-					$('.events').append("<li>before event fired.</li>");
-				},
-				after: function () {
-					$('.events').append("<li>after event fired.</li>");
-				}
-			});
+    <script src="assets/js/responsiveslides.min.js" data-pg-collapsed></script>
+    <script data-pg-collapsed>
+      // You can also use "$(window).load(function() {"
+      $(function() {
+        // Slideshow 4
+        $("#slider4").responsiveSlides({
+          auto: true,
+          pager: true,
+          nav: false,
+          speed: 500,
+          namespace: "callbacks",
+          before: function() {
+            $('.events').append("<li>before event fired.</li>");
+          },
+          after: function() {
+            $('.events').append("<li>after event fired.</li>");
+          }
+        });
 
-		});
-	</script>
+      });
+    </script>
     <!-- stats -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/jquery.countup.js"></script>
-    <script>
-		$('.counter').countUp();
-	</script>
+    <script src="assets/js/jquery.waypoints.min.js" data-pg-collapsed></script>
+    <script src="assets/js/jquery.maskedinput.min.js" data-pg-collapsed></script>
+    <script src="assets/js/jquery.countup.js" data-pg-collapsed></script>
+    <script data-pg-collapsed>
+      $('.counter').countUp();
+    </script>
     <!-- //stats -->
     <!-- flexSlider -->
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript">
-		$(window).load(function () {
-			$('.flexslider').flexslider({
-				animation: "slide",
-				start: function (slider) {
-					$('body').removeClass('loading');
-				}
-			});
-		});
-	</script>
+    <script defer src="assets/js/jquery.flexslider.js" data-pg-collapsed></script>
+    <script type="text/javascript" data-pg-collapsed>
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider) {
+            $('body').removeClass('loading');
+          }
+        });
+      });
+    </script>
     <!-- //flexSlider -->
     <!-- flexisel -->
-    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
-    <script type="text/javascript">
-		$(window).load(function () {
-			$("#flexiselDemo1").flexisel({
-				visibleItems: 4,
-				animationSpeed: 1000,
-				autoPlay: true,
-				autoPlaySpeed: 3000,
-				pauseOnHover: true,
-				enableResponsiveBreakpoints: true,
-				responsiveBreakpoints: {
-					portrait: {
-						changePoint: 480,
-						visibleItems: 1
-					},
-					landscape: {
-						changePoint: 640,
-						visibleItems: 2
-					},
-					tablet: {
-						changePoint: 768,
-						visibleItems: 3
-					}
-				}
-			});
+    <script type="text/javascript" src="assets/js/jquery.flexisel.js" data-pg-collapsed></script>
+    <script type="text/javascript" data-pg-collapsed>
+      $(window).load(function() {
+        $("#flexiselDemo1").flexisel({
+          visibleItems: 4,
+          animationSpeed: 1000,
+          autoPlay: true,
+          autoPlaySpeed: 3000,
+          pauseOnHover: true,
+          enableResponsiveBreakpoints: true,
+          responsiveBreakpoints: {
+            portrait: {
+              changePoint: 480,
+              visibleItems: 1
+            },
+            landscape: {
+              changePoint: 640,
+              visibleItems: 2
+            },
+            tablet: {
+              changePoint: 768,
+              visibleItems: 3
+            }
+          }
+        });
 
-		});
-	</script>
+      });
+    </script>
     <!-- //flexisel -->
     <!-- menu -->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js" data-pg-collapsed></script>
     <!-- //menu -->
     <!-- for bootstrap working -->
-    <script src="js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.js" data-pg-collapsed></script>
     <!-- //for bootstrap working -->
     <!-- start-smooth-scrolling -->
-    <script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000);
-			});
-		});
-	</script>
+    <script type="text/javascript" data-pg-collapsed>
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+          event.preventDefault();
+          $('html,body').animate({
+            scrollTop: $(this.hash).offset().top
+          }, 1000);
+        });
+      });
+    </script>
     <!-- start-smooth-scrolling -->
   </body>
 </html>
